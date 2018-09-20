@@ -1,0 +1,19 @@
+Below are the Steps to be followed to Build and Run the UI Automation Level scripts
+Step 1: Download the “Recipe_App” folder from below GitHub repository and store it in your local drive. 
+https://github.com/anandacharya/Recipe_App
+
+Step 2: following needs to be downloaded and installed for Protractor and Jasmine.
+1.	NPM (Node.js) download and install from (https://nodejs.org/en/download/)
+2.	Protractor install. Go to command prompt and type
+npm install -g protractor
+3.	Java and JDK installed
+4.	Webdriver manager update. In command prompt type:
+webdriver-manager update 
+5.	Start Webdriver start from command prompt:
+Webdriver-manager start   
+ the server should start and message “Selenium Server is up and running on port 4444  is displayed”
+6.	http://localhost:4444/ - to check that webdriver manager is up and running
+
+Step 3: Download visual studio code from https://code.visualstudio.com/download to run and edit protractor code
+
+Step 4: Open the downloaded folder in visual studio and from terminal command run the test scripts with “protractor config.js” command 
